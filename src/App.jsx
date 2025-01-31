@@ -15,7 +15,7 @@ import Error from "./pages/Error";
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/learn" element={<Learn />} />

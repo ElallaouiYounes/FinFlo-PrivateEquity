@@ -1,6 +1,8 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { MdArrowOutward } from "react-icons/md";
+import person3 from "../../public/person3.jpg";
+import person2 from "../../public/person2.png";
 
 const Final = () => {
   return (
@@ -47,10 +49,7 @@ const Final = () => {
 
             <div className="w-full h-[90px] flex border-b border-black/50 flex-row">
               <div className="flex gap-2 w-[70%] items-end ">
-                <img
-                  className="h-[80%] w-[40%] rounded-sm"
-                  src="../../public/person2.png"
-                />
+                <img className="h-[80%] w-[40%] rounded-sm" src={person2} />
                 <div className="flex flex-col justify-center h-full pt-6">
                   <p className="font-anton text-[13px]">Emerging Trends In</p>
                   <p className="font-anton text-[13px]">Private Equity</p>
@@ -68,10 +67,7 @@ const Final = () => {
 
             <div className="w-full h-[90px] flex border-b border-black/50 flex-row">
               <div className="flex gap-2 w-[70%] items-end ">
-                <img
-                  className="h-[80%] w-[40%] rounded-sm"
-                  src="../../public/person3.jpg"
-                />
+                <img className="h-[80%] w-[40%] rounded-sm" src={person3} />
                 <div className="flex flex-col justify-center h-full pt-6">
                   <p className="font-anton text-[13px]">AI And Private</p>
                   <p className="font-anton text-[13px]">Equity Decisions</p>

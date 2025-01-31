@@ -1,6 +1,7 @@
 import React from "react";
 import { IoMdArrowDropup } from "react-icons/io";
 import { FaPlus, FaMinus } from "react-icons/fa";
+import youngM from "../../public/youngM.png";
 
 const Second = () => {
   return (
@@ -78,7 +79,7 @@ const Second = () => {
           </div>
 
           <div className="w-[35%] h-full border-l-2 border-yellow-400 border-dotted flex justify-center items-center">
-            <img src="../../public/youngM.png" alt="" />
+            <img src={youngM} alt="" />
           </div>
         </div>
 

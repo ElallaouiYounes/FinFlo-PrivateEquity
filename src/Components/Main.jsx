@@ -1,13 +1,14 @@
 import React from 'react'
 import { TiArrowRightOutline } from "react-icons/ti";
 import { Link } from 'react-router-dom';
+import monkey from '../../public/monkey.png'
 
 const Main = () => {
   return (
     <div className='px-14 mt-6 h-[740px] relative'>
         <p className='leading-none text-[300px] font-anton font-extrabold text-creamy'>FUTURE OF</p>
         <p className='text-[200px] font-anton font-extrabold leading-none text-creamy'>PRIVATE EQUiTY</p>
-        <img src="../../public/monkey.png" className='absolute top-[24.1%] left-[30%] scale-125' />
+        <img src={monkey} className='absolute top-[24.1%] left-[30%] scale-125' />
         <div className='h-[30.9%] flex justify-between'>
 
           <div className='bg-creamy h-full w-[30%] mt-12 rotate-6 rounded-3xl flex justify-center items-center'>
